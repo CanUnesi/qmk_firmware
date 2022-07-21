@@ -4,6 +4,8 @@
 #define DEVICE_VER		0x0001
 
 #define FORCE_NKRO
+#define USB_POLLING_INTERVAL_MS 1
+#define QMK_KEYS_PER_SCAN 12
 
 #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_NONE
 #define RGB_MATRIX_STARTUP_HUE 0 // Sets the default hue value, if none has been set
